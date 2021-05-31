@@ -3,21 +3,25 @@ body {
 	background-image: url(shubham1.jpg);
 	background-size: cover;
 	background-attachment: fixed;
-	opacity: 0.7;
+	opacity: 0.6;
 }
+
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	height: 100vh;
+}
+
 .shubham {
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: 100;
-	width: 600px;
-	background: #e6e6e6;
+	width: 100%;
+	max-width: 500px;
+	background: #e6e6e6c2;
 	border-radius: 5px;
-	position: relative;
-	margin: 0%;
-	margin-left: 30%;
-	margin-top: 15%;
-	padding-top: 10px;
-	padding-bottom: 30px;
-	opacity: 80%;
+	padding: 2rem;
 }
 .my-page {
 	font-size: 25px;
@@ -28,9 +32,8 @@ body {
 	background-color: #fc4503;
 }
 p {
-	font-size: 15px;
+	font-size: 20px;
 }
-
 .link > a {
 	display: inline-block;
 	text-decoration: none;
@@ -42,7 +45,6 @@ p {
 	font-size: 18px;
 	font-weight: 900;
 }
-
 .link a:hover {
 	background-color: #9e320b;
 	transform: translateY(-2px);
