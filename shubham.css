@@ -3,6 +3,7 @@ body {
 	background-image: url(shubham1.jpg);
 	background-size: cover;
 	background-attachment: fixed;
+	backdrop-filter: blur(100%);
 	opacity: 0.6;
 }
 
