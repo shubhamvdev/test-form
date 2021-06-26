@@ -1,182 +1,141 @@
-body {
-	text-align: center;
-	background-image: url(shubham1.jpg);
-	background-size: cover;
-	background-attachment: fixed;
-	color: white;
-	font-family: Arial, Helvetica, sans-serif;
-	font-weight: 500;
-}
-.sachin {
-	text-align: center;
-	padding: 0%;
-}
-.shubham {
-	outline: none;
-	width: 500px;
-	height: 100px;
-	background-color: #f58442;
-	padding: 20px;
-	border-radius: 8px;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: left;
-	font-size: 20px;
-	font-weight: 500;
-	background: linear-gradient(to bottom, #f58442 30%, #f58442 35%, white 30%, white 30%);
-	border: 0;
-	border-bottom: 8px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.shubham2 {
-	padding-top: 0%;
-	width: 500px;
-	height: 125px;
-	background-color: #f58442;
-	padding: 20px;
-	border-radius: 8px;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: left;
-	font-size: 20px;
-	outline: 0%;
-	font-weight: 500;
-	background: linear-gradient(to bottom, #f58442 30%, #f58442 35%, white 30%, white 30%);
+/* @media screen and (min-width: 300px) and (max-width: 650px){
+	.shubham{
+		width: 400px;
+	}
+	.sachin > h2{
+		font-size: 1rem;
+	}
+} */
+@media only screen and (min-width: 600px) {
+  .sachin > h2 {
+    font-size: 1rem;
+  }
+}
+
+body {
+  text-align: center;
+  background-image: url(shubham1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+.sachin {
+  text-align: center;
+  padding: 0%;
+}
+
+.sachin > h2 {
+  /* width: 90%; */
+  max-width: 600px;
+  margin: 0 auto 1rem;
+  font-size: 1.8rem;
+}
+
+label {
+  margin: 0 auto 2rem;
+}
+
+.inner-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.shubham {
+  outline: none;
+  width: 100%;
+  max-width: 600px;
+  /* height: 100px; */
+  background-color: #f58442;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+  background: linear-gradient(
+    to bottom,
+    #f58442 30%,
+    #f58442 35%,
+    white 30%,
+    white 30%
+  );
+  border: 0;
+  margin: 0 auto;
 }
 
 .shubham2 button {
-	margin-top: 10px;
+  margin-top: 10px;
 }
 
 .main {
-	background-image: url(IMG_20210118_022640_826.jpg);
-	background-size: cover;
-	background-attachment: inherit;
-	width: 200px;
-	height: 180px;
-	padding: 10px;
-	border-radius: 8px;
-	margin-top: 200px;
-	margin-left: auto;
-	margin-right: auto;
+  background-image: url(IMG_20210118_022640_826.jpg);
+  background-size: cover;
+  width: 100%;
+  max-width: 210px;
+  max-height: 210px;
+  height: 100vh;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 14rem auto 1.5rem;
 }
-.shubham3 {
-	padding-top: 0%;
-	width: 500px;
-	height: 100px;
-	background-color: #f58442;
-	padding: 20px;
-	border-radius: 8px;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: left;
-	font-size: 20px;
-	outline: none;
-	font-weight: 500;
-	background: linear-gradient(to bottom, #f58442 30%, #f58442 35%, white 30%, white 30%);
-	border-bottom: 3px solid #e6e6e6;
-}
-.shubham4 {
-	padding-top: 0%;
-	width: 500px;
-	height: 100px;
-	background-color: #f58442;
-	padding: 20px;
-	border-radius: 8px;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: left;
-	font-size: 20px;
-	outline: none;
-	font-weight: 500;
-	background: linear-gradient(to bottom, #f58442 30%, #f58442 35%, white 30%, white 30%);
-	border-bottom: 3px solid #e6e6e6;
-}
-.shubham5 {
-	padding-top: 0%;
-	width: 500px;
-	height: 100px;
-	background-color: #f58442;
-	padding: 20px;
-	border-radius: 8px;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: left;
-	font-size: 20px;
-	outline: none;
-	font-weight: 500;
-	background: linear-gradient(to bottom, #f58442 30%, #f58442 35%, white 30%, white 30%);
-	border-bottom: 3px solid #e6e6e6;
-}
-.shubham6 {
-	padding-top: 0%;
-	width: 500px;
-	height: 100px;
-	background-color: #f58442;
-	padding: 20px;
-	border-radius: 8px;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: left;
-	font-size: 20px;
-	outline: none;
-	font-weight: 500;
-	background: linear-gradient(to bottom, #f58442 30%, #f58442 35%, white 30%, white 30%);
-	border-bottom: 3px solid #e6e6e6;
-}
-.shubham7 {
-	padding-top: 0%;
-	width: 500px;
-	height: 100px;
-	background-color: #f58442;
-	padding: 20px;
-	border-radius: 8px;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: left;
-	font-size: 20px;
-	outline: none;
-	font-weight: 500;
-	background: linear-gradient(to bottom, #f58442 30%, #f58442 35%, white 30%, white 30%);
-	border-bottom: 3px solid #e6e6e6;
-}
+
 input[type="text"],
 input[type="name"] {
-	border-top: none;
-	border-left: none;
-	border-right: navajowhite;
-	border-bottom: solid 2px #e5e5e5;
-	width: 100%;
-	padding-bottom: 10p;
-	margin-bottom: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: navajowhite;
+  border-bottom: solid 2px #e5e5e5;
+  width: 100%;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 input[type="name"]:focus-visible {
-	border-bottom: solid 2px #f58442;
-	outline: none;
+  border-bottom: solid 2px #f58442;
+  outline: none;
 }
 input[type="text"]:focus-visible {
-	border-bottom: solid 2px #f58442;
-	outline: none;
+  border-bottom: solid 2px #f58442;
+  outline: none;
 }
 
-.main-point {
-	border: none;
-	background: #f58442;
-	border-radius: 5px;
-	padding: 5px;
-	color: #fff;
-	font-weight: bold;
-	text-transform: uppercase;
-	margin: 5px;
+a {
+  margin: 0 15px 15px;
+  text-decoration: none;
 }
 
-button {
-	width: 72px;
-	border: solid 2px #f58442;
-	padding: 6px;
-	background: #f58442;
-	color: white;
-	font-weight: bold;
-	border-radius: 4px;
+a > span {
+  border: none;
+  background: #f58442;
+  border-radius: 5px;
+  padding: 8px 8px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+a:hover {
+  transform: translateY(-2px);
+}
+
+
+@media (max-width: 500px) {
+  #currently{
+    width: 100%;
+    font-size: 1rem;
+  }
 }
