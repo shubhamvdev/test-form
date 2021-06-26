@@ -21,6 +21,7 @@ body {
 	max-width: 500px;
 	background: #e6e6e6c2;
 	border-radius: 5px;
+	backdrop-filter: blur(100%);
 	padding: 1.5rem;
 }
 .my-page {
